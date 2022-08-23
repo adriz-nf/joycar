@@ -1,7 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="c]?RUMqmR!WR`~a0jybN" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="nte83#aOma,:1_]5LjFu"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="c]?RUMqmR!WR`~a0jybN" x="0" y="0"></block><block type="device_forever" id="NKh69;3a%~cJ(/S^|Qq(" x="205" y="0"></block><block type="input_logo_is_pressed" id="NH(,dWTAV9phiVNh;OGI" disabled="true" x="59" y="372"></block><block type="device_button_event" id="?K+N92~cZ05w;SM0X*hx" x="189" y="444"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="nte83#aOma,:1_]5LjFu"><field name="LEDS">`
         # . # . # 
         # . # . . 
         # # # . # 
         # . # . # 
         # . # . #
-        `</field><next><block type="device_pause" id="C,W8b8fb`g#mxABX(IFp"><value name="pause"><shadow type="timePicker" id="3F.o#=]o3x6jo8;^v{O*"><field name="ms">500</field></shadow></value><next><block type="device_print_message" id="Z6=HB881gf/mJE=1pQ5H"><value name="text"><shadow type="text" id="dG_-J0YC{zywWENwoe`H"><field name="TEXT"> INGRID</field></shadow></value></block></next></block></next></block></statement></block><block type="device_forever" id="NKh69;3a%~cJ(/S^|Qq(" x="205" y="0"></block><block type="input_logo_is_pressed" id="NH(,dWTAV9phiVNh;OGI" disabled="true" x="59" y="372"></block><block type="builtin_image" id=",t90d-|*-+i!%oAUtL.N" disabled="true" x="-25" y="504"><field name="i">IconNames.Heart</field></block></xml>
+        `</field><next><block type="device_pause" id="C,W8b8fb`g#mxABX(IFp"><value name="pause"><shadow type="timePicker" id="3F.o#=]o3x6jo8;^v{O*"><field name="ms">500</field></shadow></value><next><block type="device_print_message" id="Z6=HB881gf/mJE=1pQ5H"><value name="text"><shadow type="text" id="dG_-J0YC{zywWENwoe`H"><field name="TEXT"> INGRID</field></shadow></value></block></next></block></next></block></statement></block><block type="builtin_image" id=",t90d-|*-+i!%oAUtL.N" disabled="true" x="-25" y="504"><field name="i">IconNames.Heart</field></block><block type="device_button_event" id=",TP2m:jJm%?Sop_L4K7W" x="185" y="873"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="P|(XvaG=rRY46z{@ZWts"><field name="LEDS">`
+        # . # . # 
+        # . # . . 
+        # # # . # 
+        # . # . # 
+        # . # . #
+        `</field><next><block type="device_pause" id="BB^0*9lMz^A%19W)D%M,"><value name="pause"><shadow type="timePicker" id="[PDjFPDM4z,JF=Xrn4aE"><field name="ms">500</field></shadow></value><next><block type="device_print_message" id="yeC%oakVpE]DVy|mK+;r"><value name="text"><shadow type="text" id="`*4vsw*9:0ttz|urE-X^"><field name="TEXT">FRIDA</field></shadow></value></block></next></block></next></block></statement></block></xml>
