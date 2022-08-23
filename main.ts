@@ -36,6 +36,7 @@ input.onButtonPressed(Button.B, function () {
         # . # . #
         `)
     basic.pause(500)
+    basic.showString(" FRIDA")
 })
 basic.forever(function () {
 	
