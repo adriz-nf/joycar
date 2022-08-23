@@ -16,4 +16,4 @@
         # # # . # 
         # . # . # 
         # . # . #
-        `</field><next><block type="device_pause" id="BB^0*9lMz^A%19W)D%M,"><value name="pause"><shadow type="timePicker" id="[PDjFPDM4z,JF=Xrn4aE"><field name="ms">500</field></shadow></value><next><block type="device_print_message" id="@odIq$^MmT`qi2o9HX3g"><value name="text"><shadow type="text" id="?0ze(4x=LQ`qQBZ-)#vN"><field name="TEXT"> FRIDA</field></shadow></value></block></next></block></next></block></statement></block><block type="device_print_message" id="yeC%oakVpE]DVy|mK+;r" disabled="true" x="378" y="1352"><value name="text"><shadow type="text" id="`*4vsw*9:0ttz|urE-X^" disabled="true"><field name="TEXT">FRIDA</field></shadow></value></block></xml>
+        `</field><next><block type="device_pause" id="BB^0*9lMz^A%19W)D%M,"><value name="pause"><shadow type="timePicker" id="[PDjFPDM4z,JF=Xrn4aE"><field name="ms">500</field></shadow></value><next><block type="device_print_message" id="@odIq$^MmT`qi2o9HX3g"><value name="text"><shadow type="text" id="?0ze(4x=LQ`qQBZ-)#vN"><field name="TEXT"> FRIDA</field></shadow></value></block></next></block></next></block></statement></block></xml>
