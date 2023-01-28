@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
         # . # . #
         # . # . .
-        # # # . .
+        # # # . #
         # . # . #
         # . # . #
         `)
@@ -12,9 +12,9 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onSound(DetectedSound.Loud, function () {
     basic.showLeds(`
-        # . . . .
+        # . . . #
         # # # # #
-        # . . . .
+        # . . . #
         . . . . .
         . . . . .
         `)
@@ -48,7 +48,23 @@ input.onButtonPressed(Button.B, function () {
     basic.showString(" FRIDA")
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showLeds(`
+        # . # . #
+        # # . # #
+        # . # . #
+        # . # . #
+        . . # . .
+        `)
     JoyCar.drive(FRDirection.Forward, 49)
+    control.waitMicros(3224)
+    JoyCar.stop(StopIntensity.Intense)
+    basic.showLeds(`
+        # # # # #
+        # . . . #
+        # . . . #
+        # . . . #
+        # # # # #
+        `)
 })
 basic.forever(function () {
 	
