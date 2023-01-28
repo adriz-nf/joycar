@@ -11,6 +11,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString(" INGRID")
 })
 input.onSound(DetectedSound.Loud, function () {
+    music.playSoundEffect(music.builtinSoundEffect(soundExpression.sad), SoundExpressionPlayMode.InBackground)
     basic.showLeds(`
         # . . . #
         # # # # #
@@ -21,7 +22,7 @@ input.onSound(DetectedSound.Loud, function () {
     JoyCar.stop(StopIntensity.Intense)
 })
 input.onButtonPressed(Button.AB, function () {
-    music.playSoundEffect(music.builtinSoundEffect(soundExpression.hello), SoundExpressionPlayMode.UntilDone)
+    music.playSoundEffect(music.builtinSoundEffect(soundExpression.hello), SoundExpressionPlayMode.InBackground)
     basic.showLeds(`
         . . # . .
         . # . # .
@@ -32,8 +33,8 @@ input.onButtonPressed(Button.AB, function () {
     JoyCar.turn(
     FRDirection.Forward,
     LRDirection.Right,
-    49,
-    2
+    75,
+    3
     )
 })
 input.onButtonPressed(Button.B, function () {
@@ -47,6 +48,9 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(500)
     basic.showString(" FRIDA")
 })
+input.onSound(DetectedSound.Quiet, function () {
+    music.playSoundEffect(music.builtinSoundEffect(soundExpression.giggle), SoundExpressionPlayMode.InBackground)
+})
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.showLeds(`
         # . # . #
@@ -56,7 +60,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
         . . # . .
         `)
     JoyCar.drive(FRDirection.Forward, 49)
-    control.waitMicros(3224)
+    basic.pause(10000)
     JoyCar.stop(StopIntensity.Intense)
     basic.showLeds(`
         # # # # #
